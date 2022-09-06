@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./Assets/Styles/styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@329&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Registro de tarjeta</title>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="nav"> 
+            <a href="#" class="Logo">Logo</a>
+            <h1 class="Titulo"> Project.D</h1>
+            <ul class="menu">
+                <li class="barra">
+                    <div class="Buscar"> 
+                    <input type="text" placeholder="Buscar" required>
+                    </div>
+                </li> 
+                <li class="Carrito"> <img src="./Assets/image/Carrito.png" width="30" height="30"></li>
+                <li class="Chat"> <img src="./Assets/image/Chat.png" width="30" height="30"></li>
+                <li clase="Perfil"><img src="./Assets/image/Perfil.png"width="30" height="30"></li> 
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <form id="Nombre">
+            <fieldset>
+            <div class="caja1">
+                <label id="let" for="numt">Número de tarjeta</label><br>
+                <input type="text"
+                id="name"
+                name="name"
+                placeholder=" Introduce tu nombre"
+                minlength="3"
+                maxlength="50"                
+                title="Introduce almenos 3 carácteres máx 50"
+                tabindex="0"
+                autofocus="true"
+                autocomplete="off"
+                required>
+            </div>
+            <div class="caja1">
+                <label id="let"for="edate">Fecha de expedición </label>
+                <input type="date"
+                id="fechae"
+                name="fechae"
+                placeholder="Introduce la fecha"
+                title="Introduce la fecha"
+                tabindex="0"
+                autofocus="true"
+                autocomplete="off"
+                required> 
+            </div>
+
+            <div class="caja1">
+                <label id="let" for="cod">Código de seguridad</label><br>
+                <input type="number"
+                id="correo"
+                name="correo"
+                placeholder=" Introduce el código de seguridad"
+                minlength="3"
+                maxlength="3"
+                title="Introduce el Código"
+                tabindex="0"
+                autofocus="true"
+                autocomplete="off"
+                required>
+            </div>
+
+            <div class="caja1">
+            <label id="let"for="numt1">Número de tarjeta</label><br>
+            <input type="number"
+                id="name"
+                name="name"
+                placeholder=" Introduce el número de tu tarjeta"
+                minlength="9"
+                maxlength="50"
+                title="Introduce almenos 9 carácteres max 50"
+                tabindex="0"
+                autofocus="true"
+                autocomplete="off"
+                required>
+            </div>    
+
+            <div class="caja1">
+                <label id="let"for="edate1">Fecha de expedición </label>
+                <input type="date"
+                id="fechae2"
+                name="fechae2"
+                placeholder="Introduce la fecha"
+                title="Introduce la fecha"
+                tabindex="0"
+                autofocus="true"
+                autocomplete="off"
+                required> 
+                <br> <br>
+            </div>
+
+            <div class="caja1">
+                 <label id="let"for="lenguajes">Tipo de documento</label>
+                 <select name="lenguajes" id="lenguajes">
+                         <option value="Java">T.I</option>
+                         <option value="Csharp">CC</option>
+                         <option value="c++">NIT</option>
+                 </select>
+                 <input type="text"
+                id="Apellido"
+                name="Apellido"
+                placeholder=" introduce tu numero de documento"
+                minlength="3"
+                maxlength="50"
+                title="Introduce almenos 3 caracteres max 50"
+                tabindex="0"
+                autofocus="true"
+                autocomplete="off"
+                required>
+            </div>
+            <div>
+                <button class="boton"> <span>Continuar</span></button>
+            </div>
+        </form>
+    </main> 
+    <footer>
+        <ul class="pie">
+            <il class="logo2">Logo</il>
+            <il class="pie1"><h4>Contáctanos</h4></il>
+            <il class="derechos">© Copyright 2022 Project.D</il>
+            <il class="pie2"> <img id='s'src="./Assets/image/tel.png" width="30" height="30"> Número telefónico</il>
+            <il class="pie3"> <img id='s'src="./Assets/image/correo.png"width="30" height="30">Correo electrónico</il>
+        </ul>
+    </footer>           
+</body>
+</html>

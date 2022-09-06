@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./Assets/Styles/styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@329&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Pago</title>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="nav"> 
+            <a href="#" class="Logo">Logo</a>
+            <h1 class="Titulo"> Project.D</h1>
+            <ul class="menu">
+                <li class="barra">
+                    <div class="Buscar"> 
+                    <input type="text" placeholder="Buscar" required>
+                    </div>
+                </li> 
+                <li class="Carrito"> <img src="./Assets/image/Carrito.png" width="30" height="30"></li>
+                <li class="Chat"> <img src="./Assets/image/Chat.png" width="30" height="30"></li>
+                <li clase="Perfil"><img src="./Assets/image/Perfil.png"width="30" height="30"></li> 
+            </ul> 
+        </nav>
+    </header>
+
+    <fieldset>
+    <div class="caja1">
+        <label  id="name"for="name">Nombre</label><br>
+        <input type="text"
+        id="name"
+        name="name"
+        placeholder=" Introduce tu nombre"
+        minlength="3"
+        maxlength="50"
+
+        title="Introduce almenos 3 caracteres max 50"
+        tabindex="0"
+        autofocus="true"
+        autocomplete="off"
+        required>
+    </div>
+    <div class="caja1">
+        <label  id="name"for="name">Apellido </label>
+        <input type="text"
+        id="name"
+        name="Apellido"
+        placeholder=" Introduce tu apellido"
+        minlength="3"
+        maxlength="50"
+        title="Introduce almenos 3 caracteres max 50"
+        tabindex="0"
+        autofocus="true"
+        autocomplete="off"
+        required>
+    </div> 
+    
+    <div class="caja1">
+        <label  id="name"for="lenguajes">Tipo de documento</label>
+            <select name="lenguajes" id="lenguajes">
+                    <option value="Java">T.I</option>
+                    <option value="Csharp">CC</option>
+                    <option value="c++">NIT</option>
+            </select>
+            <input type="number"
+           id="name"
+           name="tipodoc"
+           placeholder=" Introduce tú número de documento"
+           minlength="9"
+           maxlength="50"
+           title="Introduce almenos 9 carácteres max 50"
+           tabindex="0"
+           autofocus="true"
+           autocomplete="off"
+           required>
+    </div>
+    
+    <div class="caja1">
+        <label  id="name"for="name">Ciudad </label>
+        <input type="text"
+        id="name"
+        name="city"
+        placeholder=" Introduce tu ciudad"
+        minlength="3"
+        maxlength="50"
+        title="Introduce almenos 3 carácteres máx 50"
+        tabindex="0"
+        autofocus="true"
+        autocomplete="off"
+        required> <br>
+    </div>
+    <div class="caja1">
+        <label  id="name"for="name">Barrio </label>
+        <input type="text"
+        id="name"
+        name="barrio"
+        placeholder=" Introduce tu barrio"
+        minlength="3"
+        maxlength="50"
+        title="Introduce almenos 3 carácteres máx 50"
+        tabindex="0"
+        autofocus="true"
+        autocomplete="off"
+        required>
+    </div>
+    <div class="caja1">
+        <label  id="name" for="name">Teléfono fijo </label>
+        <input type="number"
+        id="name"
+        name="telf"
+        placeholder=" Introduce tu teléfono fijo"
+        minlength="3"
+        maxlength="50"
+        title="Introduce almenos 3 carácteres máx 50"
+        tabindex="0"
+        autofocus="true"
+        autocomplete="off"
+        required> 
+    </div> 
+    <div class="caja2">
+        <label id="name"for="lenguajes">Teléfono de celular</label>
+        <select name="lenguajes" id="lenguajes">
+                <option value="Java">+57</option>
+                <option value="Csharp">+56</option>
+                <option value="c++">+58</option>
+                <option value="Java">+99</option>
+                <option value="Csharp">+103</option>
+                <option value="c++">+78</option>
+        </select>
+        <input type="number"
+        id="name"
+        name="telc"
+        placeholder=" introduce tu número de celular"
+        minlength="10"
+        maxlength="50"
+        title="Introduce almenos 10 carácteres"
+        tabindex="0"
+        autofocus="true"
+        autocomplete="off"
+        required> 
+    </div>    
+   <div class="metodos">
+        <label class="metodos1"for="lenguajes">Método de pago</label><br>
+            <div class="metodos2"><input  type="radio" name="ecivil" id="ecivil" value="credito"> <img id="a" src="https://cdn-icons-png.flaticon.com/512/3037/3037247.png"width="30"height="30"> Tarjeta de credito <br></div>
+            <div class="metodos2"><input  type="radio" name="ecivil" id="ecivil" value="debito"> <img id="a" src="https://cdn-icons-png.flaticon.com/512/664/664460.png" width="30"height="30"> Tarjeta de debito <br></div>
+            <div class="metodos2"><input type="radio" name="ecivil" id="ecivil" value="efecty"> <img id="a" src="https://cdn-icons-png.flaticon.com/512/2424/2424670.png" width="30"height="30"> Pago via efecty</div>
+    </div> 
+    <button id="next" onclick="">Siguiente -></button>  
+    </fieldset>
+    <footer>
+        <ul class="pie">
+            <il class="logo2">Logo</il>
+            <il class="pie1"><h4>Contáctanos</h4></il>
+            <il class="derechos">© Copyright 2022 Project.D</il>
+            <il class="pie2"> <img id='s'src="./Assets/image/tel.png" width="30" height="30"> Número telefónico</il>
+            <il class="pie3"> <img id='s'src="./Assets/image/correo.png"width="30" height="30">Correo electrónico</il>
+        </ul>
+    </footer>
+</body>
+</html>
